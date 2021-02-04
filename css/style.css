@@ -1,0 +1,126 @@
+#navBar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    font-family: gilroy;
+    padding-top: 0px;
+}
+#list1{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin: auto;
+    list-style: none;
+    padding-right: 40px;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 1vw;
+    font-weight: 700;
+    font-size: 22px;
+}
+li a{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0 1vw;
+}
+li a:hover{
+    background-color:  #46A9FD;
+}
+a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+#headerImg{
+    display: flex;
+    align-content: left;
+    margin-left: 30px;
+}
+body{
+    margin-top: 30px;
+    background: url(../images/Night\ Sky\ \(3\ of\ 4\).jpg);
+    background-size: cover;
+}
+.gridArea{
+    margin: auto;
+    padding-top: 20px;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "dolRd npRd projThree";
+    grid-gap: 2em;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.dolRedesign{
+    grid-area: dolRd;
+}
+.nonprofitRD{
+    grid-area: npRd;
+}
+.projThree{
+    grid-area: projThree;
+}
+#title{
+    text-align: center;
+}
+#dolImg{
+    display: block;
+    margin: auto;
+}
+#dolImg:hover{
+    opacity: 0.6;
+    box-shadow: 0px 0px 5px white;
+    
+}
+#wdpImg{
+    display: block;
+    margin: 0 auto;
+    padding: 8px;
+}
+#wdpImg:hover{
+    opacity: 0.6;
+    box-shadow: 0px 0px 5px white;
+}
+#thirdImg{
+    display: block;
+    margin: 0 auto;
+}
+#thirdImg:hover{
+    opacity: 0.6;
+    box-shadow: 0px 0px 5px white;
+}
+h1{
+    color: #f2f2f2;
+    font-family: gilroy;
+    font-size: 62px;
+}
+h2{
+    font-family: gilroy;
+    font-size: 35px;
+    color: #f2f2f2;
+    margin: auto;
+    text-align: center;
+}
+p{
+    font-family: filson pro;
+    font-weight: 400;
+    font-size: 18px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footerContent{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
